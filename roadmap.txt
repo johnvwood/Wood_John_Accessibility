@@ -1,0 +1,29 @@
+- init
+    - get a basic html structure setup going
+    - css with sass modules
+    - vue setup
+    - header and footer as components
+- wireframe it out
+    - headers
+    - boxes for 2 medias
+    - place for audio
+    - simple footer (return to top)
+- media scavenge
+    - find audio, 2 video clips for site
+- media controls
+    - research media controls for accessability
+        - play
+        - pause
+        - closed captioning
+        - mute/volume slider
+- CSS 
+    - Start with mobile
+        - big buttons
+        - high contrast - black white yellow(123)
+    - ipad
+        - bigger, larger margins
+    - desktop
+        - largest, largest margins
+        - scroll for other content
+
+
