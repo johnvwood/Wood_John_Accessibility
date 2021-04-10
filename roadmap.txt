@@ -12,18 +12,24 @@
     - find audio, 2 video clips for site
 - media controls
     - research media controls for accessability
-        - play
-        - pause
         - closed captioning
-        - mute/volume slider
 - CSS 
     - Start with mobile
-        - big buttons
         - high contrast - black white yellow(123)
-    - ipad
-        - bigger, larger margins
-    - desktop
-        - largest, largest margins
         - scroll for other content
+    - iPad
+        - larger margins
+    - desktop
+        - largest margins
+        
+
+
+Accessibility Notes
+    - Sequential h(1,2,3...) tags
+    - Correct tags for element usage
+    - Good document outline
+    - High contrast colours
+    - Arial, Helvetica, sans serif font
+    - Subtitles
 
 

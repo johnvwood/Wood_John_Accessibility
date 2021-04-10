@@ -5,31 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessibility Site</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
-    
-    <header>
-        <nav>
-
+<h1 class="hidden">Accessibility Site</h1>
+    <header id="header">
+        <h2 class="hidden">Navigation</h2>
+        <nav class="nav">
+            <h3 class="headerText">Accessibility App</h3> 
         </nav>
     </header>
-
+    <h2 class="hidden">Main App Container</h2> 
     <main id="app">
         <!-- <headercomponent></headercomponent> -->
+        <h3 class="mediaTitle"> Pulp Fiction (1994) Advertisement</h3>
+        <video class="video1 video" preload="metadata" controls poster="#">
+            <source src="/media/movie.mp4" type="video/mp4"/>
+            <track kind="subtitles" srclang="en" src="/media/cc/movie.vtt" label="English" default>
+            Your browser does not support the MP4 video element.
+        </video>
 
+        <h3 class="mediaTitle">Twilight Zone (1959) Intro Sequence</h3>
+        <video class="video2 video" preload="metadata" controls poster="#">
+            <source src="/media/tvshow.mp4" type="video/mp4"/>
+            <track kind="subtitles" srclang="en" src="/media/cc/tvshow.vtt" label="English" default>
+            Your browser does not support the MP4 video element.
+        </video>
         
+        <h3 class="mediaTitle">Blade Runner (1982) Soundtrack - Track #1</h3>
+        <audio class="audio1" controls>
+            <source src="/media/audio.mp3"/>
+            Your browser does not support the MP3 audio element.
+        </audio>
+
 
         <!-- <footercomponent></footercomponent> -->
     </main>
 
     
-    <footer>
-
+    <footer id="footer">
 
     </footer>
 
-<script defer src="js/main.js"></script>
+<script defer src="./js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </body>
 </html>
