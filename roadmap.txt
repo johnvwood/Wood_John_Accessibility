@@ -31,5 +31,6 @@ Accessibility Notes
     - High contrast colours
     - Arial, Helvetica, sans serif font
     - Subtitles
+    - "aria-label" in media tags for screen reader
 
 
